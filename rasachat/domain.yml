@@ -1,0 +1,64 @@
+intents:
+  - greet
+  - ask_land_area
+  - ask_crop_name
+
+
+
+entities:
+  - size
+  - land_unit
+  - crop
+
+
+slots:
+   size:
+       type: text
+   land_unit:
+       type: text
+   crop:
+       type: text
+
+
+actions:
+    - utter_payload
+    - utter_greet_crop_size
+    - utter_land_name
+    - action_tractor
+    - action_default_fallback
+    - utter_tractor_1
+    - utter_tractor_2
+    - utter_tractor_3
+    - utter_tractor_4
+
+
+templates:
+  utter_payload:
+   - text: "आपका स्वागत है"
+     image: "http://csrbox.org/company/cmp_logo/1493969383Swaraj-750x354.jpg"
+  utter_greet_crop_size:
+   - text: " नमस्कार मैं स्वराज ट्रैक्टर का सहायक हूं ।  नए ट्रैक्टर की सिफारिशें जानने के लिए कृपया आप जिस फसल की आप खेती करते हैं उसका चयन करें ।  (1) चावल  (2) कपास "
+     
+
+  utter_land_name:
+   - text: "कृपया आप दिए गए विकल्पों में से कृषि उपयुक्त भूमि के आकार का चयन करें  ।  (1) 5 बीघा से कम   (2) 5 से 10 बीघा "
+    
+
+  utter_tractor_1:
+   - text: "मैंने आपके द्वारा बताए गए मापदंडों के अनुसार ट्रैक्टर की सिफारिश प्रस्तुत कर दी है । ट्रैक्टर मॉडल  स्वराज 744 एफ ई "
+     image: "http://www.machinephd.com/wp-content/uploads/2017/08/Swaraj-744-FE.jpg"
+
+  utter_tractor_2:
+   - text: "मैंने आपके द्वारा बताए गए मापदंडों के अनुसार ट्रैक्टर की सिफारिश प्रस्तुत कर दी है । ट्रैक्टर मॉडल  स्वराज 963 एफ ई  "
+     image: "https://cdn.tractorjunction.com/upload/swaraj-963-fe-494385.JPG"
+
+  utter_tractor_3:
+   - text: "मैंने आपके द्वारा बताए गए मापदंडों के अनुसार ट्रैक्टर की सिफारिश प्रस्तुत कर दी है । ट्रैक्टर मॉडल  स्वराज 963 एक्स एम "
+     image: "http://www.swarajtractors.com/uploads/9/Swaraj-841xm.jpg"
+
+  utter_tractor_4:
+   - text: "मैंने आपके द्वारा बताए गए मापदंडों के अनुसार ट्रैक्टर की सिफारिश प्रस्तुत कर दी है ।  ट्रैक्टर मॉडल  स्वराज 855 एफ ई"
+     image: "https://5.imimg.com/data5/LC/NQ/MY-31780945/855-fe-swaraj-tractor-500x500.jpg"    
+
+ 
+

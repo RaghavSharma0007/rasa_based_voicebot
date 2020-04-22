@@ -1,0 +1,4 @@
+(1) For running shell script of food bot(all servers) : sh -x script.sh & sh -x bot.sh & sh -x main.sh & sh -x img.sh
+(2) For Unit testing : python script.py /home/raghavsharma/Documents/projects/Food_bot_project/Food_bot/rasachat/output/test/ output.json
+(3) For automatic data training and testing data generation : python -m chatette master.chatette -o /home/raghavsharma/Documents/projects/Food_bot_project/Food_bot/rasachat/output
+

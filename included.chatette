@@ -1,0 +1,367 @@
+// This file will be included in another file that calls it as:
+// |included.chatette
+
+
+~[greet]
+   hey Tom
+   hi tom
+   hi
+   hello
+   goodmorning
+   goodafternoon
+   hey
+   whatsup?
+   greetings
+   how are you
+   whats up Tom
+   how are you doing
+   how is it going
+   good morning tom
+   good afternoon
+   good day
+   good night
+   morning
+   good evening
+   are you around
+   whatsup
+   greetings
+   Hi, How is it going?
+   Nice to meet you.
+   Top of the morning to you!
+   What's up?
+   Hi bot
+   Hey bot
+   Hello
+   Good morning
+   hi again
+   hi there
+   greetings
+   hello everybody
+   hello robot
+   hallo
+   heeey
+   hi hi
+   hey hey
+   hello there
+   hi
+   hello tom
+   yo
+   hola
+   hi?
+   hey bot!
+   hello friend
+   good morning
+   hii
+   hello 
+   yoo
+   hey there
+   hiihihi
+   helloooo
+   heyo
+   ayyyy whaddup
+   hello?
+   Hallo
+   heya
+   hey bot
+   Hellllooooooo
+   whats up
+   Hei
+   Well hello there ;)
+   I said, helllllloooooO!!!!
+   Heya
+   Whats up my bot
+   hiii
+   heyho
+   hey, 
+   hey dude
+   hello 
+   what up
+   hi
+   hi friend
+   hi there it's me
+   punjabi tadka
+   Punjabi Tadka
+   pUNJABI TADKA
+   PUJABI TADKA
+
+
+~[how]
+   there it's me
+   it is me again
+   let's talk
+   is anybody there
+   It is a pleasure to meet you.
+   what kind of service you provide
+   tell me what is
+   are you there
+   How do you do?
+   how are things going
+   are you around?
+   nice to meet you.
+   what is available
+   
+
+
+
+
+
+~[how about]
+   how about food
+   what is available
+   what kind of service you provide
+   what sort of food is available
+   what you serve
+   show me something
+   show me your menu
+   what do you do
+   show me all dishes
+   
+
+
+@[food]
+    ~[Butter Chicken]  // if this is generated, this slot will have the value named `italian`
+    ~[Paratha]   // if this is generated, this slot will have the value named `french`
+    ~[Paneer tikka]    // if this is generated, this slot will have the value named `mexican`
+    ~[Chole Bhature] = /  // if this is generated, this slot will have the same value as the generated text
+    ~[Vada]
+    ~[Rasam Rice]
+    ~[Masala Dosa]
+    ~[Sambar]
+
+
+@[house]
+    house no 123
+    House no 789
+    H.No. 136
+    H no 456
+    # 1256
+    house123
+    Hno 1678
+    249/2
+    # 65
+    H. No. 112
+    66/9-A
+    Kothi No. 118
+    Phase 3BI
+
+@[address]
+   sector-14, Chandigarh
+   sector 17 Chandigarh
+   Sector-7, Chd
+   sector 17a Chd
+   sec-67
+   sec-45d Chandigarh
+   sec 34, Chd
+   first floor, sector-10
+   1st floor sector 18a
+   street no 12, moh
+   street no-13 moh
+   Sector 45/A CHD
+   Sector 8, CHD
+   Sector 8-C,  mohali
+   Sector 37-B  mohali
+   Dadumajra Colony
+   Top Floor, Sector 37-B
+   Maloya Colony, Pkl
+   Sec 27-A Chd.
+   Police Quarter, Sector 20-A,
+   Modern Housing Complex, Manimajra, 
+   Sialba Majri, Kharar,
+   PQ, Sector 20A,
+   Phase VII, Panchkula(Haryana)
+   Phase-IIIBI, Panchkula(Haryana)
+   SAS Nagar, Panchkula(Haryana)
+
+
+
+
+
+   
+   
+   
+   
+
+@[mobile]
+   4564564644
+   9898565654
+   9888455645
+   7896857423
+   1425367845
+
+~[my add] 
+   My address is 
+   My add:
+   My add is
+   my home address is 
+
+~[i yes]
+   i am intersted
+   hurry up
+   go ahead
+   dont worry dude....go ahead
+   i am ready to pay
+   please dont waste time 
+   i am in hurry
+   yaa do quickly
+
+~[i yess]
+   yes
+   of course,all the things are ok.
+   obviously
+   that sounds good
+   from my side yes
+   alright
+   sure 
+   i am ready
+   that's nice, yes
+   awesome, everything is ok
+   everything is ok
+   yes  from my side
+   yaa
+   yess boss
+   yup everything is ok
+   totally right
+   yes sir
+   correct buddy
+
+
+~[yes]
+   yes
+   yaa yaa
+   yes tom
+
+
+
+
+~[no]
+   no
+   sorry
+   never
+   nahhh
+   no way
+   sorry
+   nope
+   sorry 
+   noo
+   nooooo
+   no never
+   sorrrry, 
+   sorry 
+   oh no 
+   no, 
+   nah
+   nope
+   no sorry
+
+~[i no]
+   i am not intersted
+   it has been too late
+   i am just kidding
+   i am not hungry
+   i am not having enough money
+   you can give me free of cost
+   my mobile numberis not correct.
+   my address is not ok.
+   my address is different.
+   i need to change my address.
+   I don't think so.
+
+
+~[i noo]
+   definitely not
+   not sure
+   not ready
+   don't like that
+   oh noooo,
+
+
+
+
+
+~[i ask]
+   [&I] ~[change]
+   [&please] 
+
+
+~[change]
+   want to
+   will 
+   'd like to 
+   would like to
+   need to 
+   am to 
+   wanna
+   
+
+~[want]
+   want 
+   will use
+   want to use 
+   'd like to use
+   need to use
+   m looking for
+
+
+     
+~[change food items]
+   change food items
+   change Food items
+   change eating items
+   change items
+
+
+~[use]
+   [&I] ~[want]
+   [&please] ~[choose]
+
+
+
+
+
+
+~[choose]
+   choose 
+   select
+   use
+   go with
+
+
+~[online]
+   online
+   Oniline
+   ONLINE
+   online definitely
+   online no doubt
+
+
+~[my address]
+   my add
+   my address
+   my home address
+   address
+   add
+
+
+~[mobile number]
+   mbl no
+   mobile number
+   MBL NO
+   mbl. no.
+   mbl number
+
+~[cash on delivery]
+   cash on delivery
+   cod
+   COD
+   Cash on Delivery
+   
+
+
+
+
+
+
+
+
+
+

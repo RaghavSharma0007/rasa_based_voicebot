@@ -1,0 +1,30 @@
+
+.conversation-container .response {
+    padding: 6px !important;
+}
+.conversation-container .client {
+    padding: 7px !important;
+}
+
+#webchat .launcher {
+	width: 40px;
+	height: 40px;
+}
+.messages-container {
+    height: 70vh !important;
+}
+
+.conversation-container .image-frame {
+    width: 80% !important;
+    height: 70% !important;
+}
+
+.conversation-container .message {
+    margin: 5px 10px;
+    line-height: 1.15;
+}
+
+.conversation-container{
+  scroll-behavior: auto ;
+}
+   

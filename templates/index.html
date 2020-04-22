@@ -1,0 +1,283 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+   <!-- <title>Online Eats</title>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- required for basic layout -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/botui/build/botui.min.css">
+	
+	<!-- default theme - you can create your own theme -->
+      <link rel="stylesheet" type="text/css" href="https://unpkg.com/botui/build/botui-theme-default.css">
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="static/css/custom.css">
+  </head>
+  <body onload="myFunction()">
+  	<div class="container">
+	  <div class="row">
+	     <div class="col-sm">
+	      
+	    </div>
+
+	       <div class="col-sm"> 
+	      	 <div id="my-botui-app">
+  				<!-- <bot-ui></bot-ui> -->
+			</div>
+			<!-- <form id="chatForm" action="" method="post" accept-charset="utf-8">
+				{% csrf_token %}
+				<input id="userInput" type="text" name="user_input">
+				<button type="submit">Send</button>
+			</form> -->
+
+			<h1 class="text-left mt-5"></h1>
+
+			<div id="webchat">
+                               <script src="https://storage.googleapis.com/mrbot-cdn/webchat-latest.js"></script>
+				<script>
+
+					function myFunction() {
+
+						
+					function scrollWin() {
+						  window.scrollBy(0,500);
+						}
+					function say(m) {
+								  var msg = new SpeechSynthesisUtterance(m);
+								  var voices = window.speechSynthesis.getVoices();
+								  // msg.voice = voices[10];
+								  // msg.voiceURI = "native";
+								  // msg.volume = 1;
+								  // msg.rate = 1;
+								  // msg.pitch = 0.8;
+								  
+								  if (m==undefined){
+
+								  	msg.text="";
+								  	scrollWin();
+
+								  }
+								  else{
+								  	msg.text=m;
+
+								  }
+								  console.log("spoken value"+ msg.text);
+								  msg.lang = 'hi-IN';
+								  speechSynthesis.speak(msg);
+								}
+                    
+
+				    WebChat.default.init({
+				        selector: "#webchat",
+				        initPayload: "/get_started",
+				        interval: 200, // 1000 ms between each message
+				        customData: {"sender": "raghav"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+				        socketUrl: "http://localhost:5500/",
+				        title: "टॉम",
+				        subtitle: "स्वराज बॉट",
+				        profileAvatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCrQm7qCZH0unprYPCkFd8mWq8p2Z1D9kA59eP-nhzvkR4bpFS",
+				        showCloseButton: true,
+				        fullScreenMode: false,
+				        onSocketEvent: {
+						  bot_uttered: (e) => {
+						   console.log("bot_response"+ e.text);
+						   
+						   say(e.text);
+						   
+						  },
+						  connect: () => console.log('connection established'),
+						  disconnect: () => doSomeCleanup(),
+						}
+				    });
+				    }
+
+
+
+                 				    
+				</script>
+				<script >
+					
+
+				</script>
+			</div>
+
+	     </div>
+	    <!-- <div class="col-sm">
+	      <button type="submit" id="speak">Speak</button>
+	    </div>  -->
+	  </div>
+	</div>
+
+  	<!-- SCRIPTS -->
+	<!-- Vue - BotUI requires Vue to be present in page -->
+	 <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://unpkg.com/botui/build/botui.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<!-- bootstrap js -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<!-- custom script -->
+	 <script src="{% static 'js/script.js' %}" type="text/javascript" charset="utf-8"></script> 
+
+	<!-- ajax cdn -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+		localStorage.clear();
+		speechSynthesis.cancel();
+		var voices = window.speechSynthesis.getVoices();
+		var u = new SpeechSynthesisUtterance();
+		u.onstart = function (event) {
+		    // t = event.timeStamp;
+		    // console.log(t);
+		};
+
+		u.onend = function (event) {
+		    // t = event.timeStamp-t;
+		    // console.log(event.timeStamp);
+		    // console.log((t/1000) +' seconds');
+		};
+		// function say(m) {
+		// 	speechSynthesis.cancel()
+		// 				  var msg = new SpeechSynthesisUtterance();
+						  
+		// 				  msg.voice = voices[10];
+		// 				  msg.voiceURI = "native";
+		// 				  msg.volume = 1;
+		// 				  msg.rate = 1;
+		// 				  msg.pitch = 0.8;
+		// 				  msg.text = m;
+		// 				  msg.lang = 'hi-IN';
+		// 				  speechSynthesis.speak(msg);
+		// 				}
+		
+
+		$(document).ready(function(){
+
+			// $('#speak').on('click',function(event, val){
+			// 	console.log("spoken value"+val);
+			// 	u.text = val;
+			//    speechSynthesis.speak(u);
+			//    speechSynthesis.cancel();
+
+			// });
+				
+		var recognition = new webkitSpeechRecognition();
+
+					recognition.continuous = true;
+					recognition.interimResults = true;
+					recognition.lang ='hi-IN';
+					var recognizing=false;
+					var ignore_onend=true;
+					var final_transcript='';
+					var interim_transcript='';
+
+					recognition.start();
+
+					// function startButton(event) {
+					// 	console.log("in start");
+					// 	console.log("recognising"+recognizing);
+					// 	if (recognizing){
+					// 		console.log("stopping");
+					// 		recognition.stop();
+					// 		let elem = document.querySelector('#start_button');
+					// 		elem.style.setProperty('background', '#007bff', 'important');
+					// 		elem.style.setProperty('width', '15%', 'important');
+					// 		$('#start_button').html("Speak <i class='fa fa-microphone'></i>");
+					//     }
+					// 	else{
+					// 		console.log("starting");
+					// 		recognition.start();
+					// 		let elem = document.querySelector('#start_button');
+					// 		elem.style.setProperty('background', 'red', 'important');
+					// 		elem.style.setProperty('width', '15%', 'important');
+					// 		$('#start_button').html("Recording <i class='fa fa-stop'></i>");
+					// 	}
+					// 	}
+
+
+					recognition.onstart = function() {
+						console.log("started");
+					    recognizing = true;
+					    
+					    
+					    
+					  };
+					  
+					  recognition.onstop = function() {
+							console.log("stopped");
+						    recognizing = false;
+						    let elem = document.querySelector('#start_button');
+							elem.style.setProperty('background', '#007bff', 'important');
+							elem.style.setProperty('width', '15%', 'important');
+							$('#start_button').html("Speak <i class='fa fa-microphone'></i>");
+						    
+						    
+						  };
+						  
+						  
+					  recognition.onend = function() {
+						  console.log("in end");
+						    recognizing = false;
+						    recognition.start();
+						 //    let elem = document.querySelector('#start_button');
+							// elem.style.setProperty('background', '#007bff', 'important');
+							// elem.style.setProperty('width', '15%', 'important');
+							// $('#start_button').html("Speak <i class='fa fa-microphone'></i>");
+						    
+						  };
+
+					 
+					  
+					  recognition.onerror = function(event) {
+						  console.log("error");
+						    if (event.error == 'no-speech') {
+						     console.log("no speech");
+						    }
+						    if (event.error == 'audio-capture') {
+						      console.log("no microphone");
+						    }
+						    if (event.error == 'not-allowed') {
+						     	console.log("not allowed");
+						      }
+						    recognizing=false;
+						 //    let elem = document.querySelector('#start_button');
+							// elem.style.setProperty('background', '#007bff', 'important');
+							// elem.style.setProperty('width', '15%', 'important');
+							// $('#start_button').html("Speak <i class='fa fa-microphone'></i>");
+						    
+						    
+						    };
+						  
+						  
+						  recognition.onresult = function(event) {
+							  var transcript="";
+							  console.log("on result called"); 
+							  for (var i = event.resultIndex; i < event.results.length; ++i) {
+					    	      if (event.results[i].isFinal) {
+					    	        transcript=event.results[i][0].transcript;
+					    	        
+					    	      } 
+					    	      $(".new-message").val(transcript);
+					    	      $(".send").trigger('click');
+
+					    	   }
+							  console.log("final transcript is"+transcript);
+							 
+							  console.log(typeof(transcript));
+		  
+						}
+				// console.log(document.getElementsByClassName("new-message"));
+
+		});
+
+	</script>
+
+  </body>
+</html>

@@ -1,0 +1,72 @@
+%YAML 1.1
+---
+actions:
+- utter_payload
+- utter_greet_crop_size
+- utter_land_name
+- action_tractor
+- action_default_fallback
+- utter_tractor_1
+- utter_tractor_2
+- utter_tractor_3
+- utter_tractor_4
+config:
+  store_entities_as_slots: true
+entities:
+- payload
+- size
+- land_unit
+- crop
+forms: []
+intents:
+- init_payload:
+    use_entities: true
+- greet:
+    use_entities: true
+- ask_land_area:
+    use_entities: true
+- ask_crop_name:
+    use_entities: true
+slots:
+  crop:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  land_unit:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  payload:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  size:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_greet_crop_size:
+  - text: ' नमस्कार मैं स्वराज ट्रैक्टर का सहायक हूं ।  नए ट्रैक्टर की सिफारिशें जानने
+      के लिए कृपया आप जिस फसल की आप खेती करते हैं उसका चयन करें ।  (1) चावल  (2) कपास '
+  utter_land_name:
+  - text: 'कृपया आप दिए गए विकल्पों में से कृषि उपयुक्त भूमि के आकार का चयन करें  ।  (1)
+      5 बीघा से कम   (2) 5 से 10 बीघा '
+  utter_payload:
+  - image: http://csrbox.org/company/cmp_logo/1493969383Swaraj-750x354.jpg
+    text: आपका स्वागत है
+  utter_tractor_1:
+  - image: http://www.machinephd.com/wp-content/uploads/2017/08/Swaraj-744-FE.jpg
+    text: 'मैंने आपके द्वारा बताए गए मापदंडों के अनुसार ट्रैक्टर की सिफारिश प्रस्तुत
+      कर दी है । ट्रैक्टर मॉडल  स्वराज 744 एफ ई '
+  utter_tractor_2:
+  - image: https://cdn.tractorjunction.com/upload/swaraj-963-fe-494385.JPG
+    text: 'मैंने आपके द्वारा बताए गए मापदंडों के अनुसार ट्रैक्टर की सिफारिश प्रस्तुत
+      कर दी है । ट्रैक्टर मॉडल  स्वराज 963 एफ ई  '
+  utter_tractor_3:
+  - image: http://www.swarajtractors.com/uploads/9/Swaraj-841xm.jpg
+    text: 'मैंने आपके द्वारा बताए गए मापदंडों के अनुसार ट्रैक्टर की सिफारिश प्रस्तुत
+      कर दी है । ट्रैक्टर मॉडल  स्वराज 963 एक्स एम '
+  utter_tractor_4:
+  - image: https://5.imimg.com/data5/LC/NQ/MY-31780945/855-fe-swaraj-tractor-500x500.jpg
+    text: मैंने आपके द्वारा बताए गए मापदंडों के अनुसार ट्रैक्टर की सिफारिश प्रस्तुत
+      कर दी है ।  ट्रैक्टर मॉडल  स्वराज 855 एफ ई

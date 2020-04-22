@@ -1,0 +1,32 @@
+{
+  "states": [
+    "intent_ask_crop_name",
+    "intent_ask_land_area",
+    "intent_greet",
+    "intent_init_payload",
+    "entity_payload",
+    "entity_size",
+    "entity_land_unit",
+    "entity_crop",
+    "slot_crop_0",
+    "slot_land_unit_0",
+    "slot_payload_0",
+    "slot_size_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_action_back",
+    "prev_utter_payload",
+    "prev_utter_greet_crop_size",
+    "prev_utter_land_name",
+    "prev_action_tractor",
+    "prev_utter_tractor_1",
+    "prev_utter_tractor_2",
+    "prev_utter_tractor_3",
+    "prev_utter_tractor_4"
+  ]
+}

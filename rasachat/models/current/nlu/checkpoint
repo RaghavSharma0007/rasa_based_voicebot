@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/raghavsharma/Documents/projects/swaraj_webchat_bot/swaraj_voicebot_try2/rasachat/models/current/nlu/component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/home/raghavsharma/Documents/projects/swaraj_webchat_bot/swaraj_voicebot_try2/rasachat/models/current/nlu/component_5_EmbeddingIntentClassifier.ckpt"

@@ -1,0 +1,769 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "1374c2ceb37d4c399458a655922f55e3",
+            "entity": "payload"
+          }
+        ],
+        "text": "1374c2ceb37d4c399458a655922f55e3"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "e99458a655922f55e31374c2ceb37d4c",
+            "entity": "payload"
+          }
+        ],
+        "text": "e99458a655922f55e31374c2ceb37d4c"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "e37d4c399458a655922f55e31374c2ce",
+            "entity": "payload"
+          }
+        ],
+        "text": "e37d4c399458a655922f55e31374c2ce"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "ea655922f55e31374c2ceb37d4c3994e",
+            "entity": "payload"
+          }
+        ],
+        "text": "ea655922f55e31374c2ceb37d4c3994e"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "e943uoiuu9uu492ujaiofjajfjoajljj",
+            "entity": "payload"
+          }
+        ],
+        "text": "e943uoiuu9uu492ujaiofjajfjoajljj"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "e975297aiju9uu8ajfo8u9ruq9uqru9q",
+            "entity": "payload"
+          }
+        ],
+        "text": "e975297aiju9uu8ajfo8u9ruq9uqru9q"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "e87972jklajofaje9aje8ZJof8ejfs8i",
+            "entity": "payload"
+          }
+        ],
+        "text": "e87972jklajofaje9aje8ZJof8ejfs8i"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "e39fwuou89u2row893wuruw982owu324",
+            "entity": "payload"
+          }
+        ],
+        "text": "e39fwuou89u2row893wuruw982owu324"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "e37j8oiu94857893fuowu93987uoiuoi",
+            "entity": "payload"
+          }
+        ],
+        "text": "e37j8oiu94857893fuowu93987uoiuoi"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "e82wiurwoir92389woiruuwroriuwr93",
+            "entity": "payload"
+          }
+        ],
+        "text": "e82wiurwoir92389woiruuwroriuwr93"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "easjoe93579euotuoe93939etu35uu34",
+            "entity": "payload"
+          }
+        ],
+        "text": "easjoe93579euotuoe93939etu35uu34"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "e32270c57e3e4ad6b787b67fc23ec2d0",
+            "entity": "payload"
+          }
+        ],
+        "text": "e32270c57e3e4ad6b787b67fc23ec2d0"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "e32270c57e3e4ad6b787b67fc23ec2d0",
+            "entity": "payload"
+          }
+        ],
+        "text": "e32270c57e3e4ad6b787b67fc23ec2d0"
+      },
+      {
+        "intent": "init_payload",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "ec2d0e32270c57e3e4ad6b787b67fc23",
+            "entity": "payload"
+          }
+        ],
+        "text": "ec2d0e32270c57e3e4ad6b787b67fc23"
+      },
+      {
+        "intent": "greet",
+        "text": "हे"
+      },
+      {
+        "intent": "greet",
+        "text": "नमस्ते"
+      },
+      {
+        "intent": "greet",
+        "text": "नमस्ते बॉट"
+      },
+      {
+        "intent": "greet",
+        "text": "शुभ प्रभात"
+      },
+      {
+        "intent": "greet",
+        "text": "सुप्रभात"
+      },
+      {
+        "intent": "greet",
+        "text": "सुसंध्या"
+      },
+      {
+        "intent": "greet",
+        "text": "शुभ संध्या"
+      },
+      {
+        "intent": "greet",
+        "text": "सुनो"
+      },
+      {
+        "intent": "greet",
+        "text": "नमस्कार"
+      },
+      {
+        "intent": "greet",
+        "text": "नमस्ते बॉट"
+      },
+      {
+        "intent": "greet",
+        "text": "शुभ रात्रि"
+      },
+      {
+        "intent": "greet",
+        "text": "क्या हाल है"
+      },
+      {
+        "intent": "greet",
+        "text": "क्या हाल है बॉट"
+      },
+      {
+        "intent": "greet",
+        "text": "शुभ दिन!"
+      },
+      {
+        "intent": "greet",
+        "text": "शुभ सन्ध्या!"
+      },
+      {
+        "intent": "greet",
+        "text": "हलो"
+      },
+      {
+        "intent": "greet",
+        "text": "अरे यार !"
+      },
+      {
+        "intent": "greet",
+        "text": "कैसा चल रहा"
+      },
+      {
+        "intent": "greet",
+        "text": "क्या हो गया है"
+      },
+      {
+        "intent": "greet",
+        "text": "सुनो"
+      },
+      {
+        "intent": "greet",
+        "text": "सुनो!"
+      },
+      {
+        "intent": "greet",
+        "text": "सब कुछ कैसा चल रहा है"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "10",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "10 बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "एक",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "एक बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "size"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "2 बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "दो",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "दो बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "25",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "25 बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "100",
+            "entity": "size"
+          },
+          {
+            "start": 5,
+            "end": 9,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "100, बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "1",
+            "entity": "size"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "1 बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "21",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "21 बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "29",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "29 बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "130",
+            "entity": "size"
+          },
+          {
+            "start": 5,
+            "end": 9,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "130, बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "15",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "15 बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "27",
+            "entity": "size"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "27, बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "45",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "45 बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "200",
+            "entity": "size"
+          },
+          {
+            "start": 5,
+            "end": 9,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "200, बीघा"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "बीघा",
+            "entity": "land_unit"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "55",
+            "entity": "size"
+          }
+        ],
+        "text": "बीघा 55"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "बीघा",
+            "entity": "land_unit"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "77",
+            "entity": "size"
+          }
+        ],
+        "text": "बीघा,77,"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "बीघा",
+            "entity": "land_unit"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "65",
+            "entity": "size"
+          }
+        ],
+        "text": "बीघा 65"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "बीघा",
+            "entity": "land_unit"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "300",
+            "entity": "size"
+          }
+        ],
+        "text": "बीघा 300,"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "3",
+            "entity": "size"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "मेरे पास 3 बीघा भूमि है"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "10",
+            "entity": "size"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "मेरे पास 10 बीघा जमीन है"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "3",
+            "entity": "size"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "मेरे पास 3 बीघा कृषि भूमि है"
+      },
+      {
+        "intent": "ask_land_area",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "3",
+            "entity": "size"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "बीघा",
+            "entity": "land_unit"
+          }
+        ],
+        "text": "मेरे पास 3 बीघा है"
+      },
+      {
+        "intent": "ask_crop_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "चावल",
+            "entity": "crop"
+          }
+        ],
+        "text": "चावल"
+      },
+      {
+        "intent": "ask_crop_name",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "चावल",
+            "entity": "crop"
+          }
+        ],
+        "text": "मेरे यहां चावल की पैदावार होती है"
+      },
+      {
+        "intent": "ask_crop_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "चावल",
+            "entity": "crop"
+          }
+        ],
+        "text": "मैं चावल की खेती करता हूं"
+      },
+      {
+        "intent": "ask_crop_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "कपास",
+            "entity": "crop"
+          }
+        ],
+        "text": "कपास"
+      },
+      {
+        "intent": "ask_crop_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "कपास",
+            "entity": "crop"
+          }
+        ],
+        "text": "मैं कपास की खेती करता हूं"
+      },
+      {
+        "intent": "ask_crop_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "कपास",
+            "entity": "crop"
+          }
+        ],
+        "text": "मैं कपास की खेती करता हूं"
+      },
+      {
+        "intent": "ask_crop_name",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "कपास",
+            "entity": "crop"
+          }
+        ],
+        "text": "मेरे यहां कपास की पैदावार होती है"
+      },
+      {
+        "intent": "ask_crop_name",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "कपास",
+            "entity": "crop"
+          }
+        ],
+        "text": "मेरे यहां कपास की पैदावार होती है"
+      },
+      {
+        "intent": "ask_crop_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "चावल",
+            "entity": "crop"
+          }
+        ],
+        "text": "चावल"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
